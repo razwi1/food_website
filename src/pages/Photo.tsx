@@ -4,6 +4,7 @@ import { QRCodeCanvas } from 'qrcode.react';
 import { supabase } from '../supabaseClient';
 
 export default function Photo() {
+  //const [image, setImage] = useState<string | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
   const [publicUrl, setPublicUrl] = useState<string | null>(null);
 
@@ -16,7 +17,7 @@ export default function Photo() {
     
     setLoading(true);
     setPublicUrl(null);
-    setImage(null);
+    //setImage(null);
 
     // Create a unique file path
     const filePath = `qr-images/${Date.now()}-${file.name}`;
