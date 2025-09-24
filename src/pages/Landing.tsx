@@ -1,7 +1,7 @@
 ﻿// src/pages/Landing.tsx
 import { useState } from 'react';
 import { supabase } from '../supabaseClient';
-import banner from '../assets/banner.jpeg';
+import banner from '../assets/Banner.jpeg';
 import thankYouVideo from '../assets/videos/thank_you.mp4'; // Import the local video file
 
 export default function Landing() {
