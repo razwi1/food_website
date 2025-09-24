@@ -3,11 +3,10 @@
     "",
     "\\public",
     "\\src",
-    "\\src\\api-server",
     "\\src\\assets",
     "\\src\\assets\\videos",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\api-server\\package.json",
+  "SelectedNode": "\\src\\App.tsx",
   "PreviewInSolutionExplorer": false
 }
