@@ -4,7 +4,6 @@ import { QRCodeCanvas } from 'qrcode.react';
 import { supabase } from '../supabaseClient';
 
 export default function Photo() {
-  const [image, setImage] = useState<string | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
   const [publicUrl, setPublicUrl] = useState<string | null>(null);
 
