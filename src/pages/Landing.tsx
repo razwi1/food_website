@@ -7,7 +7,7 @@ import thankYouVideo from '../assets/videos/thank_you.mp4'; // Import the local 
 export default function Landing() {
   const [form, setForm] = useState({ name: '', email: '', phone: '' });
   const [submitted, setSubmitted] = useState(false);
-  const banner = "./public/banner.jpeg";
+  const banner = "./assets/banner.jpeg";
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setForm({ ...form, [e.target.name]: e.target.value });
