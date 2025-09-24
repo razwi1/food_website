@@ -1,13 +1,13 @@
 ﻿// src/pages/Landing.tsx
 import { useState } from 'react';
 import { supabase } from '../supabaseClient';
-//import banner from '/src/assets/banner.jpeg';
+import banner from '/src/assets/banner.jpeg';
 import thankYouVideo from '../assets/videos/thank_you.mp4'; // Import the local video file
 
 export default function Landing() {
   const [form, setForm] = useState({ name: '', email: '', phone: '' });
   const [submitted, setSubmitted] = useState(false);
-  const banner = "./assets/banner.jpeg";
+  //const banner = "./assets/banner.jpeg";
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setForm({ ...form, [e.target.name]: e.target.value });
